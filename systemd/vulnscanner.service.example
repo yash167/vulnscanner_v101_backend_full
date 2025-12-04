@@ -1,0 +1,13 @@
+[Unit]
+Description=vulnscanner_v101 Backend
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/opt/vulnscanner/backend/api
+ExecStart=/opt/vulnscanner/backend/venv/bin/python app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

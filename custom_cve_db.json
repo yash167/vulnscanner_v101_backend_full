@@ -1,0 +1,10 @@
+{
+  "signatures": [
+    {
+      "id": "CUST-001",
+      "product": "example",
+      "match": "example 1.0",
+      "description": "Example vuln"
+    }
+  ]
+}
